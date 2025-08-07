@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="456" height="456" viewBox="0 0 456 456" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <rect x="0" y="0" width="456" height="456" fill="#512BD4" />
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hintergrund: Verlauf von Blau zu Rot -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A90E2" />
+      <stop offset="100%" stop-color="#E94E77" />
+    </linearGradient>
+  </defs>
+
+  <!-- iOS-Stil Hintergrund -->
+  <rect x="0" y="0" width="1024" height="1024" rx="220" ry="220" fill="url(#bgGradient)" />
+
+  <!-- Bild-Post Fläche -->
+  <rect x="212" y="220" width="600" height="360" rx="40" ry="40" fill="#ffffff" opacity="0.2"/>
+  <circle cx="320" cy="320" r="40" fill="#FCE38A"/>
+  <polygon points="400,480 520,340 660,480" fill="#50C3FF"/>
+
+  <!-- Herz (Like) -->
+  <path d="M512 750 C450 680, 300 600, 380 480 
+           C420 420, 500 450, 512 500 
+           C524 450, 600 420, 644 480 
+           C724 600, 574 680, 512 750 Z"
+        fill="#FF4B5C"/>
+
+  <!-- Pluszeichen für Post -->
+  <rect x="470" y="820" width="80" height="160" rx="20" ry="20" fill="#ffffff"/>
+  <rect x="420" y="870" width="180" height="60" rx="20" ry="20" fill="#ffffff"/>
 </svg>
